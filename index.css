@@ -1,0 +1,1514 @@
+body {
+  width: 2000px;
+  background-color: black;
+}
+
+.title {
+  position: absolute;
+  color: rgba(250, 7, 7);
+  text-align: left;
+  font-family: 'Times';
+  font-style: italic;
+  margin-top: 15px;
+  margin-left: 110px;
+  font-size: 9.5px;
+  width: 9500px;
+  animation: fadeIn ease 5s;
+  /* animation: fadeIn ease 15s; */
+  /* -webkit-text-stroke-width: 1px; */
+ /* -webkit-text-stroke-color: rgba(162, 144, 173, 0.70); */
+}
+
+.introduction {
+  position: absolute;
+  color: rgba(233, 216, 244);
+  font-family: 'Monument Grotesk';
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 12.5px;
+  width: 250px;
+  line-height: 14px;
+  animation: fadeIn ease 5s;
+}
+
+
+.image1 img {
+  position: absolute;
+  top: 40px;
+  left: 195px;
+  width: 35%;
+  height: 45%;
+  opacity: 0.5;
+  z-index: -1;
+  /* animation: fadeIn ease 15s; */
+}
+
+.image2 img {
+  position: absolute;
+  top: 40px;
+  left: 707px;
+  width: 35%;
+  height: 45%;
+  opacity: 0.5;
+  z-index: -1;
+  /* animation: fadeIn ease 15s; */
+}
+
+.image3 img {
+  position: absolute;
+  top: 368px;
+  left: 195px;
+  width: 35%;
+  height: 45%;
+  opacity: 0.5;
+  z-index: -1;
+  /* animation: fadeIn ease 15s; */
+}
+
+.image4 img {
+  position: absolute;
+  top: 368px;
+  left: 707px;
+  width: 35%;
+  height: 45%;
+  opacity: 0.5;
+  z-index: -1;
+  /* animation: fadeIn ease 15s; */
+}
+
+.line img {
+  position: absolute;
+  top: 50px;
+  left: -10px;
+  width: 90%;
+  height: 35%;
+  opacity: 0.5;
+  z-index: -1;
+  /* animation: fadeIn ease 15s; */
+}
+
+.longline {
+  border-left: 0.2px solid red;
+  position: absolute;
+  transform: rotate(90deg);
+  height: 200px;
+  top: 180px;
+  left: 1410px;
+}
+
+.chapters1 {
+  position: absolute;
+  text-align: center;
+  color: rgba(233, 216, 244);
+  font-family: 'Monument Grotesk';
+  top: 170px;
+  left: 1330px;
+  font-size: 12.5px;
+  width: 160px;
+  line-height: 14px;
+}
+
+.chapters2 {
+  position: absolute;
+  text-align: center;
+  color: rgba(233, 216, 244);
+  font-family: 'Monument Grotesk';
+  top: 300px;
+  left: 1330px;
+  font-size: 12.5px;
+  width: 160px;
+  line-height: 5px;
+}
+
+.one {
+  position: absolute;
+  color: rgba(250, 7, 7);
+  text-align: left;
+  font-family: 'Times';
+  font-style: italic;
+  margin-top: 105px;
+  margin-left: 1700px;
+  font-size: 12px;
+  width: 50px;
+}
+
+.two {
+  position: absolute;
+  color: rgba(250, 7, 7);
+  text-align: left;
+  font-family: 'Times';
+  font-style: italic;
+  margin-top: 105px;
+  margin-left: 2700px;
+  font-size: 12px;
+  width: 200px;
+}
+
+.three {
+  position: absolute;
+  color: rgba(250, 7, 7);
+  text-align: left;
+  font-family: 'Times';
+  font-style: italic;
+  margin-top: 105px;
+  margin-left: 3700px;
+  font-size: 12px;
+  width: 200px;
+}
+
+.four {
+  position: absolute;
+  color: rgba(250, 7, 7);
+  text-align: left;
+  font-family: 'Times';
+  font-style: italic;
+  margin-top: 105px;
+  margin-left: 4700px;
+  font-size: 12px;
+  width: 200px;
+}
+
+.five {
+  position: absolute;
+  color: rgba(250, 7, 7);
+  text-align: left;
+  font-family: 'Times';
+  font-style: italic;
+  margin-top: 105px;
+  margin-left: 5700px;
+  font-size: 12px;
+  width: 200px;
+}
+
+
+.quote {
+  position: absolute;
+  color: rgba(233, 216, 244);
+  font-family: 'Times';
+  font-style: italic;
+  top: 60px;
+  left: 80px;
+  width: 100px;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.picture1 img {
+  position: absolute;
+  top: 390px;
+  left: 1700px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture1 img {
+  overflow: hidden;
+}
+.picture1 img {
+  transition: transform .7s ease;
+}
+.picture1:hover img {
+  transform: scale(2);
+}
+
+.picture2 img {
+  position: absolute;
+  top: 280px;
+  left: 1860px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture2 img {
+  overflow: hidden;
+}
+.picture2 img {
+  transition: transform .7s ease;
+}
+.picture2:hover img {
+  transform: scale(2);
+}
+
+.picture3 img {
+  position: absolute;
+  top: 160px;
+  left: 1720px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture3 img {
+  overflow: hidden;
+}
+.picture3 img {
+  transition: transform .7s ease;
+}
+.picture3:hover img {
+  transform: scale(2);
+}
+
+.picture4 img {
+  position: absolute;
+  top: 500px;
+  left: 1550px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture4 img {
+  overflow: hidden;
+}
+.picture4 img {
+  transition: transform .7s ease;
+}
+.picture4:hover img {
+  transform: scale(2);
+}
+
+.picture5 img {
+  position: absolute;
+  top: 550px;
+  left: 1700px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture5 img {
+  overflow: hidden;
+}
+.picture5 img {
+  transition: transform .7s ease;
+}
+.picture5:hover img {
+  transform: scale(2);
+}
+
+.picture6 img {
+  position: absolute;
+  top: 395px;
+  left: 2000px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture6 img {
+  overflow: hidden;
+}
+.picture6 img {
+  transition: transform .7s ease;
+}
+.picture6:hover img {
+  transform: scale(2);
+}
+
+.picture7 img {
+  position: absolute;
+  top: 515px;
+  left: 2100px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture7 img {
+  overflow: hidden;
+}
+.picture7 img {
+  transition: transform .7s ease;
+}
+.picture7:hover img {
+  transform: scale(2);
+}
+
+.picture8 img {
+  position: absolute;
+  top: 395px;
+  left: 2190px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture8 img {
+  overflow: hidden;
+}
+.picture8 img {
+  transition: transform .7s ease;
+}
+.picture8:hover img {
+  transform: scale(2);
+}
+
+.picture9 img {
+  position: absolute;
+  top: 275px;
+  left: 2120px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture9 img {
+  overflow: hidden;
+}
+.picture9 img {
+  transition: transform .7s ease;
+}
+.picture9:hover img {
+  transform: scale(2);
+}
+
+.picture10 img {
+  position: absolute;
+  top: 155px;
+  left: 2200px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture10 img {
+  overflow: hidden;
+}
+.picture10 img {
+  transition: transform .7s ease;
+}
+.picture10:hover img {
+  transform: scale(2);
+}
+
+.picture11 img {
+  position: absolute;
+  top: 90px;
+  left: 2350px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture11 img {
+  overflow: hidden;
+}
+.picture11 img {
+  transition: transform .7s ease;
+}
+.picture11:hover img {
+  transform: scale(2);
+}
+
+.picture12 img {
+  position: absolute;
+  top: 205px;
+  left: 2450px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture12 img {
+  overflow: hidden;
+}
+.picture12 img {
+  transition: transform .7s ease;
+}
+.picture12:hover img {
+  transform: scale(2);
+}
+
+.picture13 img {
+  position: absolute;
+  top: 320px;
+  left: 2510px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture13 img {
+  overflow: hidden;
+}
+.picture13 img {
+  transition: transform .7s ease;
+}
+.picture13:hover img {
+  transform: scale(2);
+}
+
+.picture14 img {
+  position: absolute;
+  top: 440px;
+  left: 2400px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture14 img {
+  overflow: hidden;
+}
+.picture14 img {
+  transition: transform .7s ease;
+}
+.picture14:hover img {
+  transform: scale(2);
+}
+
+.picture15 img {
+  position: absolute;
+  top: 130px;
+  left: 2850px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture15 img {
+  overflow: hidden;
+}
+.picture15 img {
+  transition: transform .7s ease;
+}
+.picture15:hover img {
+  transform: scale(2);
+}
+
+.picture16 img {
+  position: absolute;
+  top: 230px;
+  left: 3000px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture16 img {
+  overflow: hidden;
+}
+.picture16 img {
+  transition: transform .7s ease;
+}
+.picture16:hover img {
+  transform: scale(2);
+}
+
+.picture17 img {
+  position: absolute;
+  top: 70px;
+  left: 3000px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture17 img {
+  overflow: hidden;
+}
+.picture17 img {
+  transition: transform .7s ease;
+}
+.picture17:hover img {
+  transform: scale(2);
+}
+
+.picture18 img {
+  position: absolute;
+  top: 100px;
+  left: 3155px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture18 img {
+  overflow: hidden;
+}
+.picture18 img {
+  transition: transform .7s ease;
+}
+.picture18:hover img {
+  transform: scale(2);
+}
+
+.picture19 img {
+  position: absolute;
+  top: 320px;
+  left: 3155px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture19 img {
+  overflow: hidden;
+}
+.picture19 img {
+  transition: transform .7s ease;
+}
+.picture19:hover img {
+  transform: scale(2);
+}
+
+.picture20 img {
+  position: absolute;
+  top: 390px;
+  left: 3305px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture20 img {
+  overflow: hidden;
+}
+.picture20 img {
+  transition: transform .7s ease;
+}
+.picture20:hover img {
+  transform: scale(2);
+}
+
+.picture21 img {
+  position: absolute;
+  top: 505px;
+  left: 3175px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture21 img {
+  overflow: hidden;
+}
+.picture21 img {
+  transition: transform .7s ease;
+}
+.picture21:hover img {
+  transform: scale(2);
+}
+
+.picture22 img {
+  position: absolute;
+  top: 395px;
+  left: 3000px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture22 img {
+  overflow: hidden;
+}
+.picture22 img {
+  transition: transform .7s ease;
+}
+.picture22:hover img {
+  transform: scale(2);
+}
+
+.picture23 img {
+  position: absolute;
+  top: 145px;
+  left: 3310px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture23 img {
+  overflow: hidden;
+}
+.picture23 img {
+  transition: transform .7s ease;
+}
+.picture23:hover img {
+  transform: scale(2);
+}
+
+.picture24 img {
+  position: absolute;
+  top: 505px;
+  left: 2850px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture24 img {
+  overflow: hidden;
+}
+.picture24 img {
+  transition: transform .7s ease;
+}
+.picture24:hover img {
+  transform: scale(2);
+}
+
+.picture25 img {
+  position: absolute;
+  top: 575px;
+  left: 3330px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture25 img {
+  overflow: hidden;
+}
+.picture25 img {
+  transition: transform .7s ease;
+}
+.picture25:hover img {
+  transform: scale(2);
+}
+
+.picture26 img {
+  position: absolute;
+  top: 465px;
+  left: 3475px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture26 img {
+  overflow: hidden;
+}
+.picture26 img {
+  transition: transform .7s ease;
+}
+.picture26:hover img {
+  transform: scale(2);
+}
+
+.picture27 img {
+  position: absolute;
+  top: 395px;
+  left: 2700px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture27 img {
+  overflow: hidden;
+}
+.picture27 img {
+  transition: transform .7s ease;
+}
+.picture27:hover img {
+  transform: scale(2);
+}
+
+.picture28 img {
+  position: absolute;
+  top: 350px;
+  left: 3620px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture28 img {
+  overflow: hidden;
+}
+.picture28 img {
+  transition: transform .7s ease;
+}
+.picture28:hover img {
+  transform: scale(2);
+}
+
+.picture29 img {
+  position: absolute;
+  top: 235px;
+  left: 3465px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture29 img {
+  overflow: hidden;
+}
+.picture29 img {
+  transition: transform .7s ease;
+}
+.picture29:hover img {
+  transform: scale(2);
+}
+
+.picture30 img {
+  position: absolute;
+  top: 75px;
+  left: 3835px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture30 img {
+  overflow: hidden;
+}
+.picture30 img {
+  transition: transform .7s ease;
+}
+.picture30:hover img {
+  transform: scale(2);
+}
+
+.picture31 img {
+  position: absolute;
+  top: 175px;
+  left: 4005px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture31 img {
+  overflow: hidden;
+}
+.picture31 img {
+  transition: transform .7s ease;
+}
+.picture31:hover img {
+  transform: scale(2);
+}
+
+.picture32 img {
+  position: absolute;
+  top: 250px;
+  left: 3855px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture32 img {
+  overflow: hidden;
+}
+.picture32 img {
+  transition: transform .7s ease;
+}
+.picture32:hover img {
+  transform: scale(2);
+}
+
+.picture33 img {
+  position: absolute;
+  top: 380px;
+  left: 3855px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture33 img {
+  overflow: hidden;
+}
+.picture33 img {
+  transition: transform .7s ease;
+}
+.picture33:hover img {
+  transform: scale(2);
+}
+
+.picture34 img {
+  position: absolute;
+  top: 450px;
+  left: 4020px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture34 img {
+  overflow: hidden;
+}
+.picture34 img {
+  transition: transform .7s ease;
+}
+.picture34:hover img {
+  transform: scale(2);
+}
+
+.picture35 img {
+  position: absolute;
+  top: 550px;
+  left: 4200px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture35 img {
+  overflow: hidden;
+}
+.picture35 img {
+  transition: transform .7s ease;
+}
+.picture35:hover img {
+  transform: scale(2);
+}
+
+.picture36 img {
+  position: absolute;
+  top: 350px;
+  left: 4200px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture36 img {
+  overflow: hidden;
+}
+.picture36 img {
+  transition: transform .7s ease;
+}
+.picture36:hover img {
+  transform: scale(2);
+}
+
+.picture37 img {
+  position: absolute;
+  top: 450px;
+  left: 4400px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture37 img {
+  overflow: hidden;
+}
+.picture37 img {
+  transition: transform .7s ease;
+}
+.picture37:hover img {
+  transform: scale(2);
+}
+
+.picture38 img {
+  position: absolute;
+  top: 400px;
+  left: 4550px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture38 img {
+  overflow: hidden;
+}
+.picture38 img {
+  transition: transform .7s ease;
+}
+.picture38:hover img {
+  transform: scale(2);
+}
+
+.picture39 img {
+  position: absolute;
+  top: 250px;
+  left: 4350px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture39 img {
+  overflow: hidden;
+}
+.picture39 img {
+  transition: transform .7s ease;
+}
+.picture39:hover img {
+  transform: scale(2);
+}
+
+.picture40 img {
+  position: absolute;
+  top: 130px;
+  left: 4300px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture40 img {
+  overflow: hidden;
+}
+.picture40 img {
+  transition: transform .7s ease;
+}
+.picture40:hover img {
+  transform: scale(2);
+}
+
+.picture41 img {
+  position: absolute;
+  top: 80px;
+  left: 4450px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture41 img {
+  overflow: hidden;
+}
+.picture41 img {
+  transition: transform .7s ease;
+}
+.picture41:hover img {
+  transform: scale(2);
+}
+
+.picture42 img {
+  position: absolute;
+  top: 190px;
+  left: 4600px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture42 img {
+  overflow: hidden;
+}
+.picture42 img {
+  transition: transform .7s ease;
+}
+.picture42:hover img {
+  transform: scale(2);
+}
+
+.picture43 img {
+  position: absolute;
+  top: 90px;
+  left: 4800px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture43 img {
+  overflow: hidden;
+}
+.picture43 img {
+  transition: transform .7s ease;
+}
+.picture43:hover img {
+  transform: scale(2);
+}
+
+.picture44 img {
+  position: absolute;
+  top: 205px;
+  left: 4900px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture44 img {
+  overflow: hidden;
+}
+.picture44 img {
+  transition: transform .7s ease;
+}
+.picture44:hover img {
+  transform: scale(2);
+}
+
+.picture45 img {
+  position: absolute;
+  top: 320px;
+  left: 4820px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture45 img {
+  overflow: hidden;
+}
+.picture45 img {
+  transition: transform .7s ease;
+}
+.picture45:hover img {
+  transform: scale(2);
+}
+
+.picture46 img {
+  position: absolute;
+  top: 400px;
+  left: 4970px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture46 img {
+  overflow: hidden;
+}
+.picture46 img {
+  transition: transform .7s ease;
+}
+.picture46:hover img {
+  transform: scale(2);
+}
+
+.picture47 img {
+  position: absolute;
+  top: 510px;
+  left: 4825px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture47 img {
+  overflow: hidden;
+}
+.picture47 img {
+  transition: transform .7s ease;
+}
+.picture47:hover img {
+  transform: scale(2);
+}
+
+.picture48 img {
+  position: absolute;
+  top: 510px;
+  left: 5125px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture48 img {
+  overflow: hidden;
+}
+.picture48 img {
+  transition: transform .7s ease;
+}
+.picture48:hover img {
+  transform: scale(2);
+}
+
+.picture49 img {
+  position: absolute;
+  top: 290px;
+  left: 5120px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture49 img {
+  overflow: hidden;
+}
+.picture49 img {
+  transition: transform .7s ease;
+}
+.picture49:hover img {
+  transform: scale(2);
+}
+
+.picture50 img {
+  position: absolute;
+  top: 180px;
+  left: 5260px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture50 img {
+  overflow: hidden;
+}
+.picture50 img {
+  transition: transform .7s ease;
+}
+.picture50:hover img {
+  transform: scale(2);
+}
+
+.picture51 img {
+  position: absolute;
+  top: 70px;
+  left: 5120px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture51 img {
+  overflow: hidden;
+}
+.picture51 img {
+  transition: transform .7s ease;
+}
+.picture51:hover img {
+  transform: scale(2);
+}
+
+.picture52 img {
+  position: absolute;
+  top: 270px;
+  left: 5410px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture52 img {
+  overflow: hidden;
+}
+.picture52 img {
+  transition: transform .7s ease;
+}
+.picture52:hover img {
+  transform: scale(2);
+}
+
+.picture53 img {
+  position: absolute;
+  top: 380px;
+  left: 5510px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture53 img {
+  overflow: hidden;
+}
+.picture53 img {
+  transition: transform .7s ease;
+}
+.picture53:hover img {
+  transform: scale(2);
+}
+
+.picture54 img {
+  position: absolute;
+  top: 490px;
+  left: 5610px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture54 img {
+  overflow: hidden;
+}
+.picture54 img {
+  transition: transform .7s ease;
+}
+.picture54:hover img {
+  transform: scale(2);
+}
+
+.picture55 img {
+  position: absolute;
+  top: 550px;
+  left: 5275px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture55 img {
+  overflow: hidden;
+}
+.picture55 img {
+  transition: transform .7s ease;
+}
+.picture55:hover img {
+  transform: scale(2);
+}
+
+.picture56 img {
+  position: absolute;
+  top: 65px;
+  left: 5355px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture56 img {
+  overflow: hidden;
+}
+.picture56 img {
+  transition: transform .7s ease;
+}
+.picture56:hover img {
+  transform: scale(2);
+}
+
+.picture57 img {
+  position: absolute;
+  top: 145px;
+  left: 5650px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture57 img {
+  overflow: hidden;
+}
+.picture57 img {
+  transition: transform .7s ease;
+}
+.picture57:hover img {
+  transform: scale(2);
+}
+
+.picture58 img {
+  position: absolute;
+  top: 195px;
+  left: 5800px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture58 img {
+  overflow: hidden;
+}
+.picture58 img {
+  transition: transform .7s ease;
+}
+.picture58:hover img {
+  transform: scale(2);
+}
+
+.picture59 img {
+  position: absolute;
+  top: 205px;
+  left: 5950px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture59 img {
+  overflow: hidden;
+}
+.picture59 img {
+  transition: transform .7s ease;
+}
+.picture59:hover img {
+  transform: scale(2);
+}
+
+.picture60 img {
+  position: absolute;
+  top: 265px;
+  left: 6100px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture60 img {
+  overflow: hidden;
+}
+.picture60 img {
+  transition: transform .7s ease;
+}
+.picture60:hover img {
+  transform: scale(2);
+}
+
+.picture61 img {
+  position: absolute;
+  top: 285px;
+  left: 6280px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture61 img {
+  overflow: hidden;
+}
+.picture61 img {
+  transition: transform .7s ease;
+}
+.picture61:hover img {
+  transform: scale(2);
+}
+
+.picture62 img {
+  position: absolute;
+  top: 310px;
+  left: 6430px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture62 img {
+  overflow: hidden;
+}
+.picture62 img {
+  transition: transform .7s ease;
+}
+.picture62:hover img {
+  transform: scale(2);
+}
+
+.picture63 img {
+  position: absolute;
+  top: 390px;
+  left: 6580px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture63 img {
+  overflow: hidden;
+}
+.picture63 img {
+  transition: transform .7s ease;
+}
+.picture63:hover img {
+  transform: scale(2);
+}
+
+.picture64 img {
+  position: absolute;
+  top: 275px;
+  left: 6680px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture64 img {
+  overflow: hidden;
+}
+.picture64 img {
+  transition: transform .7s ease;
+}
+.picture64:hover img {
+  transform: scale(2);
+}
+
+.picture65 img {
+  position: absolute;
+  top: 275px;
+  left: 6860px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture65 img {
+  overflow: hidden;
+}
+.picture65 img {
+  transition: transform .7s ease;
+}
+.picture65:hover img {
+  transform: scale(2);
+}
+
+.picture66 img {
+  position: absolute;
+  top: 375px;
+  left: 7015px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture66 img {
+  overflow: hidden;
+}
+.picture66 img {
+  transition: transform .7s ease;
+}
+.picture66:hover img {
+  transform: scale(2);
+}
+
+.picture67 img {
+  position: absolute;
+  top: 475px;
+  left: 7165px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture67 img {
+  overflow: hidden;
+}
+.picture67 img {
+  transition: transform .7s ease;
+}
+.picture67:hover img {
+  transform: scale(2);
+}
+
+.picture68 img {
+  position: absolute;
+  top: 455px;
+  left: 7320px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture68 img {
+  overflow: hidden;
+}
+.picture68 img {
+  transition: transform .7s ease;
+}
+.picture68:hover img {
+  transform: scale(2);
+}
+
+.picture69 img {
+  position: absolute;
+  top: 395px;
+  left: 7470px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture69 img {
+  overflow: hidden;
+}
+.picture69 img {
+  transition: transform .7s ease;
+}
+.picture69:hover img {
+  transform: scale(2);
+}
+
+.picture70 img {
+  position: absolute;
+  top: 280px;
+  left: 7590px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture70 img {
+  overflow: hidden;
+}
+.picture70 img {
+  transition: transform .7s ease;
+}
+.picture70:hover img {
+  transform: scale(2);
+}
+
+.picture71 img {
+  position: absolute;
+  top: 220px;
+  left: 7740px;
+  width: 10%;
+  height: 15%;
+}
+
+.picture71 img {
+  overflow: hidden;
+}
+.picture71 img {
+  transition: transform .7s ease;
+}
+.picture71:hover img {
+  transform: scale(2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* audio::-webkit-media-controls-panel,
+video::-webkit-media-controls-panel {
+background-color: red;
+top: 400px;
+} */
+
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url("fonts/MonumentGroteskTrial-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Nostrav';
+    src: url("fonts/Nostrav1.0-StreamTrial.woff") format('woff');
+}
